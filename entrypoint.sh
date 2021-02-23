@@ -36,4 +36,6 @@ echo '#!/bin/bash
     sleep 60 
     done ' >> start_valheim.sh 
 
+sudo su - steam
+
 ./start_valheim.sh
