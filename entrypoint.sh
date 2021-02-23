@@ -17,7 +17,7 @@ echo '#!/bin/bash
     /home/username/.steam/steamcmd/steamcmd.sh +login anonymous +force_install_dir '"${STEAMAPPDIR}"' 
     /home/username/Valheim +app_update '"${STEAMAPPID}"' +quit 
 
-    ./valheim_server.x86_64 -name '"${WORLDNAME}"' -port 2456 -world "Dedicated" -password '"${WORLDPASS}"' -public 1 > /dev/null & 
+    ./valheim_server.x86_64 -name '"${NAME}"' -port 2456 -world '"${WORLDNAME}"' -password '"${WORLDPASS}"' -public 1 > /dev/null & 
 
     export LD_LIBRARY_PATH=$templdpath 
 
