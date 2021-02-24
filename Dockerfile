@@ -14,6 +14,7 @@ ENV NAME    "Mutila's Server"
 
 USER ${USER}
 
+
 VOLUME ${STEAMAPPDIR}
 
 COPY entrypoint.sh ./entrypoint.sh
