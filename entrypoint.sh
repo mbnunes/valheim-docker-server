@@ -31,7 +31,7 @@ echo '#!/bin/bash
 
     while : 
     do 
-    TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S+') 
+    TIMESTAMP=$(date '\'+%Y-%m-%d %H:%M:%S\'' ) 
     echo "valheim.service: timestamp ${TIMESTAMP}" 
     sleep 60 
     done ' >> start_valheim.sh 
